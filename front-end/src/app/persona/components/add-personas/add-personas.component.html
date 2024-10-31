@@ -1,0 +1,39 @@
+<div class="container">
+  <h1>Agregar Correo</h1>
+  <form (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <mat-label>Nombre</mat-label>
+      <input matInput [(ngModel)]="nombre" name="nombre" placeholder="Nombre" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Apellido</mat-label>
+      <input matInput [(ngModel)]="apellido" name="apellido" placeholder="Apellido" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Cédula</mat-label>
+      <input matInput [(ngModel)]="cedula" name="cedula" placeholder="Cédula" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Dirección</mat-label>
+      <input matInput [(ngModel)]="direccion" name="direccion" placeholder="Dirección" required>
+    </mat-form-field>
+
+    <h3>Correos Electrónicos</h3>
+    <div *ngFor="let correo of correos; let i = index">
+      <mat-form-field>
+        <mat-label>Correo {{ i + 1 }}</mat-label>
+        <input matInput [(ngModel)]="correos[i]" [name]="'correo' + i" placeholder="Correo electrónico" required>
+      </mat-form-field>
+      <button mat-button color="warn" (click)="deleteCorreo(i)" *ngIf="correos.length > 1">Eliminar</button>
+    </div>
+    <button mat-button (click)="addCorreo()">Agregar Otro Correo</button>
+
+    <div>
+      <button mat-raised-button color="primary" type="submit">Guardar Persona</button>
+      <button mat-raised-button color="accent" routerLink="/personas">Cancelar</button>
+    </div>
+  </form>
+</div>
