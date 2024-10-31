@@ -128,6 +128,7 @@ C:\Users\Usuario\Desktop\Coding\Proyectos\1-Agenda\agenda_telefonica\agenda_tele
 C:\Users\Usuario\Desktop\Coding\Proyectos\1-Agenda\agenda_telefonica\agenda_telefonica\obj\Debug\net8.0\agenda_telefonica.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\Coding\Proyectos\1-Agenda\agenda_telefonica\agenda_telefonica\obj\Debug\net8.0\agenda_telefonica.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Usuario\Desktop\Coding\Proyectos\1-Agenda\agenda_telefonica\agenda_telefonica\obj\Debug\net8.0\agenda_telefonica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\Coding\Proyectos\1-Agenda\agenda_telefonica\agenda_telefonica\obj\Debug\net8.0\agenda_telefonica.sourcelink.json
 C:\Users\Usuario\Desktop\Coding\Proyectos\1-Agenda\agenda_telefonica\agenda_telefonica\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Usuario\Desktop\Coding\Proyectos\1-Agenda\agenda_telefonica\agenda_telefonica\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Usuario\Desktop\Coding\Proyectos\1-Agenda\agenda_telefonica\agenda_telefonica\obj\Debug\net8.0\staticwebassets\msbuild.agenda_telefonica.Microsoft.AspNetCore.StaticWebAssets.props
